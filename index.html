@@ -2,4 +2,20 @@
 <h1>
 It Works!
 </h1>
+  
+<div class="chart"></div>
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script>
+var data = [100, 500, 1000, 1100, 1110];
+var x = d3.scale.linear()
+    .domain([0, d3.max(data)])
+    .range([0, 420]);
+d3.select(".chart")
+  .selectAll("div")
+    .data(data)
+  .enter().append("div")
+    .style("width", function(d) { return x(d) + "px"; })
+    .text(function(d) { return d; });
+</script>
+
 </HTML>
