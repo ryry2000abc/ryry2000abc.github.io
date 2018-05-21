@@ -30,5 +30,10 @@ d3.select(".chart")
     .style("width", function(d) { return x(d) + "px"; })
     .text(function(d) { return d; });
   
+<div class="timeline">
+ 
+var svg = d3.select('div.timeline').append('svg').attr('width', 708).attr('height, 409px);
+var circle = svg.selectAll("circle");
+circle.data([1,2,3]);
 </script>
 </HTML>
