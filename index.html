@@ -22,6 +22,7 @@ var data = [100, 500, 1000, 1100, 1110];
 var x = d3.scale.linear()
     .domain([0, d3.max(data)])
     .range([0, 420]);
+  
 d3.select(".chart")
   .selectAll("div")
     .data(data)
