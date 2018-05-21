@@ -28,8 +28,7 @@ d3.select(".chart")
   .enter().append("div")
     .style("width", function(d) { return x(d) + "px"; })
     .text(function(d) { return d; });
-</script>
-
+  
 var svg = d3.select("div#container")
   .append("svg")
   .attr("preserveAspectRatio", "xMinYMin meet")
@@ -41,6 +40,8 @@ var svg = d3.select("div#container")
   <circle cx="80" cy="60" r="10"></circle>
   <circle cx="120" cy="60" r="10"></circle>
 </svg>
-  
-  
+ 
+</script>
+
+
 </HTML>
