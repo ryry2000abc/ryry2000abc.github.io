@@ -30,4 +30,17 @@ d3.select(".chart")
     .text(function(d) { return d; });
 </script>
 
+var svg = d3.select("div#container")
+  .append("svg")
+  .attr("preserveAspectRatio", "xMinYMin meet")
+  .attr("viewBox", "0 0 300 300")
+  .classed("svg-content", true);
+  
+<svg>
+  <circle cx="40" cy="60" r="10"></circle>
+  <circle cx="80" cy="60" r="10"></circle>
+  <circle cx="120" cy="60" r="10"></circle>
+</svg>
+  
+  
 </HTML>
