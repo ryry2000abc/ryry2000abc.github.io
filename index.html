@@ -1,6 +1,6 @@
 <DOCTYPE HTML>
 <h1>
-Updated
+Updated!
 </h1>
   
  <style>
@@ -17,7 +17,6 @@ Updated
 <link rel="stylesheet" href="indexstyle.css">
 <div class="chart"></div>
 <script src="https://d3js.org/d3.v3.min.js"></script>
-<script>
 var data = [100, 500, 1000, 1100, 1110];
 var x = d3.scale.linear()
     .domain([0, d3.max(data)])
@@ -29,13 +28,7 @@ d3.select(".chart")
   .enter().append("div")
     .style("width", function(d) { return x(d) + "px"; })
     .text(function(d) { return d; });
-  
-  <svg>
-    <circle cx="40" cy="60" r="10"></circle>
-    <circle cx="80" cy="60" r="10"></circle>
-    <circle cx="120" cy="60" r="10"></circle>  
-  </svg>
-  //d3.select("svg").selectAll("circle").style("fill", "steelblue");
+
 </script>
   
 
