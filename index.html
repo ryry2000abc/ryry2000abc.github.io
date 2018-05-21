@@ -1,6 +1,6 @@
 <DOCTYPE HTML>
 <h1>
-Updated!
+Updated?
 </h1>
   
  <style>
@@ -29,12 +29,12 @@ d3.select(".chart")
   .enter().append("div")
     .style("width", function(d) { return x(d) + "px"; })
     .text(function(d) { return d; });
-
-</script>
   
-
- 
-
-
-
+  <svg>
+    <circle cx="40" cy="60" r="10"></circle>
+    <circle cx="80" cy="60" r="10"></circle>
+    <circle cx="120" cy="60" r="10"></circle>  
+  </svg>
+  //d3.select("svg").selectAll("circle").style("fill", "steelblue");
+</script>
 </HTML>
