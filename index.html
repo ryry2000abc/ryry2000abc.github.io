@@ -7,8 +7,27 @@ The Olympics: A Historical Timeline 2
 <link rel="stylesheet" href="indexstyle.css">
 <script src="https://d3js.org/d3.v3.min.js"></script>
 <script>
+<svg id="canvas"  height="1200px" width = "800px">
+
+<svg>
 d3.csv("summeroly.csv", function(data){
   console.log(data);
+  var year = d3.select("svg")
+      .selectAll("g")
+          .data(data)
+          .enter()
+          .append("g")
+              .attr("class", "year")
+              .attr("transform", function(d){
+                    return "translate(" + 10 + "," + d.year*50 + ")";
+               })
+  
+  
+  
+  
+  year.append("circle")
+      .attr("r", 5);
+                    
 });
 </script>
 </HTML>
