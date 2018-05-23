@@ -25,7 +25,7 @@ d3.csv("summeroly.csv", function(data){
                     return "translate(" + 100 + "," + d.number*45 + ")";
                })
           .on("mouseover", function(d){
-             d3.select(this).append("text")
+             d3.select(this)
                   .append("text")
                   .attr("class", "date")
                   .text(d.year);
