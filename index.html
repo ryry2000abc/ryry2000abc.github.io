@@ -1,6 +1,6 @@
 <DOCTYPE HTML>
 <h1>
-The Olympics: A Historical Timeline 1
+The Olympics: A Historical Timeline 0
 </h1>
   
  
@@ -24,7 +24,17 @@ d3.csv("summeroly.csv", function(data){
                });
   year.append("circle")
       .attr("r", 10)
-      .attr("fill", "#F52D19");
+      .attr("fill", function(d)
+            {
+                if (d.year == 1916 || d.year == 1940 || d.year == 1944)  
+                {
+                  return "#0D5EC2"
+                }
+                else
+                {
+                  return "#F52D19"
+                }
+             });
 
                     
 });
