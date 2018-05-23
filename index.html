@@ -6,10 +6,11 @@ The Olympics: A Historical Timeline 2
  
 <link rel="stylesheet" href="indexstyle.css">
 <script src="https://d3js.org/d3.v3.min.js"></script>
+  
+<svg id="canvas"  height="1200px" width = "800px"> </svg>
 <script>
-<svg id="canvas"  height="1200px" width = "800px">
 
-<svg>
+
 d3.csv("summeroly.csv", function(data){
   console.log(data);
   var year = d3.select("svg")
