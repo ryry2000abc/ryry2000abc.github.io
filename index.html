@@ -20,7 +20,13 @@ d3.csv("summeroly.csv", function(data){
               .attr("class", "year")
               .attr("transform", function(d){
                     return "translate(" + 100 + "," + d.number*45 + ")";
-               });
+               })
+          .on("mouseover", function(d){
+             d3.select(this).append("text)
+                  .append("text")
+                  .attr("class", "date")
+                  .text(d.year);
+          }
   year.append("circle")
       .attr("r", 10)
       .attr("fill", function(d)
