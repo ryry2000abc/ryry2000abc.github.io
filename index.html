@@ -18,10 +18,10 @@ d3.csv("summeroly.csv", function(data){
           .data(data)
           .enter()
           .append("g")
-              .attr("class", "year")
-              .attr("transform", function(d){
+              .attr("class", "year");
+              /*.attr("transform", function(d){
                     return "translate(" + 10 + "," + d.year*50 + ")";
-               })
+               })*/
   year.append("circle")
       .attr("r", 5)
                     
