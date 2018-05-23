@@ -29,7 +29,7 @@ d3.csv("summeroly.csv", function(data){
                   .append("text")
                   .attr("class", "date")
                   .attr("x", "15")
-                  .text(d.year + d.remembrance);
+                  .text(d.year + "  " + d.remembrance);
           })
           .on("mouseout", function(d){
             
