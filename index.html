@@ -39,7 +39,10 @@ d3.csv("summeroly.csv", function(data){
           
   
   year.append("text")
-      .attr("class", function(d){ return d.year});
+      .attr("class", function(d){ return d.year})
+      .attr("x", 0)
+      .attr("y", 100);
+       
 });
 </script>
   
