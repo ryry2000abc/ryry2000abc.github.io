@@ -1,39 +1,14 @@
 <DOCTYPE HTML>
 <h1>
-Updated??
+The Olympics: A Historical Timeline
 </h1>
   
- <style>
-.chart div {
-  font: 10px sans-serif;
-  background-color: steelblue;
-  text-align: right;
-  padding: 3px;
-  margin: 1px;
-  color: white;
-}
-</style>
  
 <link rel="stylesheet" href="indexstyle.css">
-<div class="chart"></div>
 <script src="https://d3js.org/d3.v3.min.js"></script>
 <script>
-var data = [100, 500, 1000, 1100, 1110];
-var x = d3.scale.linear()
-    .domain([0, d3.max(data)])
-    .range([0, 420]);
-  
-d3.select(".chart")
-  .selectAll("div")
-    .data(data)
-  .enter().append("div")
-    .style("width", function(d) { return x(d) + "px"; })
-    .text(function(d) { return d; });
-  
-<div class="timeline">
- 
-var svg = d3.select('div.timeline').append('svg').attr('width', 708).attr('height, 409px);
-var circle = svg.selectAll("circle");
-circle.data([1,2,3]);
+d3.csv("summeroly.csv", function*(data){
+  console.log(data);
+}
 </script>
 </HTML>
