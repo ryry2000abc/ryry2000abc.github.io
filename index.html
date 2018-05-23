@@ -1,6 +1,6 @@
 <DOCTYPE HTML>
 <h1>
-The Olympics: A Historical Timeline 11
+The Olympics: A Historical Timeline 12
 </h1>
   
  
@@ -18,10 +18,10 @@ d3.csv("summeroly.csv", function(data){
           .data(data)
           .enter()
           .append("g")
-              .attr("class", "year");
-              /*.attr("transform", function(d){
+              .attr("class", "year")
+              .attr("transform", function(d){
                     return "translate(" + 10 + "," + d.number*50 + ")";
-               })*/
+               });
   year.append("circle")
       .attr("r", 100)
 
