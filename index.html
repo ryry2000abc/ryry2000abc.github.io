@@ -20,10 +20,15 @@ d3.csv("summeroly.csv", function(data){
           .append("g")
               .attr("class", "year")
               .attr("transform", function(d){
-                    return "translate(" + 10 + "," + d.number*50 + ")";
+                    return "translate(" + 100 + "," + d.number*50 + ")";
                });
   year.append("circle")
       .attr("r", 100)
+      .attr("color", function(d)
+            {
+                    var col = d.number + 47;
+                    return "rgb(255," + col + ", 26)"
+            })
 
                     
 });
