@@ -28,6 +28,7 @@ d3.csv("summeroly.csv", function(data){
              d3.select(this)
                   .append("text")
                   .attr("class", "date")
+                  .attr("x", "15")
                   .text(d.year);
           })
   year.append("circle")
