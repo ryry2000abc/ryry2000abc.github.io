@@ -32,7 +32,7 @@ d3.csv("summeroly.csv", function(data){
                   .text("   " + d.year + "  " + d.remembrance);
           })
           .on("mouseout", function(d){
-              d3.selectAll("text.date");
+              d3.selectAll("text.date").remove();
           })
             
   year.append("circle")
