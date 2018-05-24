@@ -29,11 +29,11 @@ d3.csv("summeroly.csv", function(data){
                   .append("text")
                   .attr("class", "date")
                   .attr("x", "15")
-                  .text("   " + d.year);
+                  .text("   " + d.year + "  " + d.remembrance);
           })
           .on("mouseout", function(d){
-            
-            
+              d3.selectAll("text.date");
+          })
             
   year.append("circle")
       .attr("r", 10)
