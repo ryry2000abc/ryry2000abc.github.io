@@ -22,7 +22,7 @@ d3.csv("summeroly.csv", function(data){
           .append("g")
               .attr("class", "year")
               .attr("transform", function(d){
-                    int xPosition = d.number * 50;
+                    var xPosition = d.number * 50;
                     if (xPosition > document.documentElement.clientWidth)
                     {
                       xPosition = xPosition % document.documentElement.clientWidth; 
