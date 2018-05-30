@@ -1,11 +1,11 @@
 
 body {
-  background-color: #0E141C;
+  background-color: #E8CC00;
 	background-position: right top;
   background-attachment: fixed;
 	background-size: cover;
 	font-family: "Trebuchet MS" ;
-  color: #FFFD98;
+  color: #FF0000;
 	}
 #content {
 	background-color: white;
@@ -16,8 +16,8 @@ body {
 }
 h1{
 	text-align: leftwards;
-	color: #FBFFE5 ;
-	font-size: 90px;
+	color: #0E5DFC ;
+	font-size: 70px;
 	margin-left: 0px;
 	background-image: url("Untitled-1.jpg");
 	margin-bottom: 0px;
