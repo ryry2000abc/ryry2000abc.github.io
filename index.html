@@ -22,7 +22,12 @@ d3.csv("summeroly.csv", function(data){
           .append("g")
               .attr("class", "year")
               .attr("transform", function(d){
-                    return "translate(" + 100 + "," + d.number*50 + ")";
+                    int xPos = d.number * 50;
+                    if (xPos > window.innerWidth)
+                    {
+                      xPos = xPos % window.innerWidth; 
+                    }
+                    return "translate(" + xPos + "," + 100 + ")";
                })
           .on("mouseover", function(d){
              d3.select(this)
