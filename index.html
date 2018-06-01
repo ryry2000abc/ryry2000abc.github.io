@@ -51,6 +51,7 @@ d3.csv("summeroly.csv", function(data){
                   .attr("fill", "#F2F6DE")
                   .text("   " + d.year + "    " + d.remembrance + " \r " + d.connection);*/
           //})
+              )
           .on("mouseout",
              d3.select(this).select("circle")
                   .attr("fill", function(d)
