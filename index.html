@@ -33,6 +33,9 @@ d3.csv("summeroly.csv", function(data){
                })
           .on("mouseover", function(d){
           d3.select(this)
+            .select("circle")
+            .attr("fill", "#FFF")
+            /*
                   .append("text")
                   .attr("class", "date")
                   .attr("x", "15")
@@ -40,7 +43,8 @@ d3.csv("summeroly.csv", function(data){
                   .attr("font", "Courier")
                   .attr("font-size", "36px")
                   .attr("fill", "#7F7C6A")
-                  .text("   " + d.year + "    " + d.remembrance + " \r " + d.connection)
+                  .text("   " + d.year + "    " + d.remembrance + " \r " + d.connection)*/
+            
           })
            /*
           .on("mouseover",
