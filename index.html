@@ -39,21 +39,33 @@ d3.csv("summeroly.csv", function(data){
                   .attr("font", "Courier")
                   .attr("font-size", "36px")
                   .attr("fill", "#7F7C6A")
-                  .text("   " + d.year + "    " + d.remembrance + " \r " + d.connection)
-          .on("mouseover", function(d){
-             d3.select(this)
-                  .append("text")
+                  .text("   " + d.year + "    " + d.remembrance + " \r " + d.connection)*/
+          .on("mouseover", //function(d){
+             d3.select(this).select("circle")
+                  .attr("fill", "#FFF")
+                  /*.append("text")
                   .attr("class", "date")
                   .attr("y", "-20")
                   .attr("font", "Courier")
                   .attr("font-size", "36px")
                   .attr("fill", "#F2F6DE")
-                  .text("   " + d.year + "    " + d.remembrance + " \r " + d.connection);
-          })
-          .on("mouseout", function(d){
-              d3.selectAll("text.date").remove();
-          })*/
-            
+                  .text("   " + d.year + "    " + d.remembrance + " \r " + d.connection);*/
+          //})
+          .on("mouseout",
+             d3.select(this).select("circle")
+                  .attr("fill", function(d)
+            {
+                if (d.year == 1916 || d.year == 1940 || d.year == 1944)  
+                {
+                  return "#F52D19"
+                }
+                else
+                {
+                  return "#0D5EC2"
+                }
+             })
+          )
+              
   year.append("circle")
       .attr("r", 10)
       .attr("fill", function(d)
