@@ -73,7 +73,10 @@ d3.csv("summeroly.csv", function(data){
       .attr("font", "Courier")
       .attr("font-size", "36px")
       .attr("fill", "#F2F6DE")
-          .text("YEET")
+          .text(function(d)        
+    {
+      return d.year();
+    })
 });
 </script>
   
