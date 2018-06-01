@@ -1,6 +1,6 @@
 <DOCTYPE HTML>
 <h1>
-The Olympics: A Historical Timeline 11
+The Olympics: A Historical Timeline 00
 </h1>
   
  
@@ -31,7 +31,8 @@ d3.csv("summeroly.csv", function(data){
                     }
                     return "translate(" + xPosition + "," + yPosition + ")";
                })
-          /*d3.select(this)
+          .on("mouseover", function(d){
+          d3.select(this)
                   .append("text")
                   .attr("class", "date")
                   .attr("x", "15")
@@ -40,6 +41,8 @@ d3.csv("summeroly.csv", function(data){
                   .attr("font-size", "36px")
                   .attr("fill", "#7F7C6A")
                   .text("   " + d.year + "    " + d.remembrance + " \r " + d.connection)
+          })
+           /*
           .on("mouseover",
                   d3.select(this).select("circle")
                   .attr("fill", "#FFF")
