@@ -69,7 +69,16 @@ d3.csv("summeroly.csv", function(data){
              })
   year.append("text")
       .attr("class", "date")
-      .attr("y", "-20")
+      .attr("y", function(d){
+    if(d.number % 2 != 0)
+    {
+    return "-20";
+    }
+    else
+    {
+        return "20";
+    }
+  })
       .attr("x", "-15")
       .attr("font", "Courier")
       .attr("font-size", "24px")
