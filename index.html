@@ -33,11 +33,26 @@ d3.csv("summeroly.csv", function(data){
                     return "translate(" + xPosition + "," + yPosition + ")";
                })
           .on("mouseover", function(d){
-          d3.select(this)
-            .select("circle")
-            .attr("fill", "#FFF");
-          })
-          .on("mouseout", )
+                 d3.select(this)
+                    .select("circle")
+                    .attr("fill", "#FFF");
+              })
+          .on("mouseout", function(d)
+              {
+                if (d.year == 1916 || d.year == 1940 || d.year == 1944)  
+                {
+                   d3.select(this)
+                    .select("circle")
+                    .attr("fill", "#F52D19")
+                }
+                else
+                {
+                    d3.select(this)
+                    .select("circle")
+                    .attr("fill", "#0D5EC2")
+                }
+            
+              })
   
           /*.on("mouseout", 
           d3.select(this)
