@@ -1,7 +1,7 @@
 <DOCTYPE HTML>
 <title>An Olympic Timeline</title>
 <h1>
-The Olympics: A Historical Timeline 00
+The Olympics: A Historical Timeline
 </h1>
   
  
@@ -35,10 +35,10 @@ d3.csv("summeroly.csv", function(data){
           .on("mouseover", function(d){
           d3.select(this)
             .select("circle")
-            .attr("fill", "#FFF")
+            .attr("fill", "#FFF");
           })
   
-          .on("mouseout", 
+          /*.on("mouseout", 
           d3.select(this)
             .select("circle")
             .attr("fill", function(d)
@@ -52,7 +52,7 @@ d3.csv("summeroly.csv", function(data){
                   return "#0D5EC2"
                 }
              })
-          )
+          )*/
               
   year.append("circle")
       .attr("r", 10)
