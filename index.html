@@ -25,9 +25,9 @@ d3.csv("summeroly.csv", function(data){
               .attr("transform", function(d){
                     var xPosition = d.number * 50;
                     var yPosition = 50;
-                    if ( (xPosition + 20) > document.documentElement.clientWidth )
+                    if ( (xPosition + 80) > document.documentElement.clientWidth )
                     {
-                      xPosition = xPosition % document.documentElement.clientWidth + 50; 
+                      xPosition = (xPosition + 20) % document.documentElement.clientWidth); 
                       yPosition = 200;
                     }
                     return "translate(" + xPosition + "," + yPosition + ")";
