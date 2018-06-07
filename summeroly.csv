@@ -1,84 +1,84 @@
-host,number,year,remembrance,connection
-Greece,1,1896,First Olympics,
-France,2,1900,Second Olympics,"Women partook in the Olympics for the first time
-Some of the participants, (including medal winners), were unaware that they competed in the Olympics"
-U.S.A,3,1904,,Russo-Japanese war
-UK,4,1908,,US doesn't dip flag
-Sweden,5,1912,,First Asian nation (japan) competes
-Germany,6,1916,Cancelled (WWI),
+,number,year,remembrance,connection,importance
+Greece,1,1896,First Olympics,,7
+France,2,1900,,"Women partook in the Olympics for the first time
+Some of the participants, (including medal winners), were unaware that they competed in the Olympics",6
+U.S.A,3,1904,,Russo-Japanese war,3
+UK,4,1908,,US doesn't dip flag,2
+Sweden,5,1912,,First Asian nation (japan) competes,3
+Germany,6,1916,Cancelled (WWI),,7
 Belgium,7,1920,,"Axis powers banned, first us women's team - refelcts feminism that produced 19th ammendment
 Given to Belgium to support its reconstruction
-"
-France,8,1924,,Germany banned
+",5
+France,8,1924,,Germany banned,5
 Netherlands,9,1928,,"Coca Cola sponsers the games
-US 1st, Germany 2nd"
+US 1st, Germany 2nd",6
 U.S.A,10,1932,Great depression,"Half of # of participants as 1928
 LA only city willing to bid for olympics
-"
-Nazi Germany,11,1936,,"Jesse Owens breaks olympic history, shattering Hitler's plan to use the games to portray the Aryan Man."
-Emp. of Japan + Finland,12,1940,Canceled (WWII),
-UK,13,1944,Cancelled (WWII),
+",7
+Nazi Germany,11,1936,,"Jesse Owens breaks olympic history, shattering Hitler's plan to use the games to portray the Aryan Man.",10
+Emp. of Japan + Finland,12,1940,Canceled (WWII),,5
+UK,13,1944,Cancelled (WWII),,5
 UK,14,1948,,"USSR boycotts
 Japan and Germany banned
 German POWs used to build olympic buildings
 Televised
 Wheelchair events - post WWII possibly veteran respect
 England hosts to try to recover from WWII
-"
+",6
 Finland,15,1952,,"First time a team from the USSR participated with the first gold won being Nina Romashkova 
 Israel made its first Olympic debut, 
-The People's Republic of China participated for the first time"
+The People's Republic of China participated for the first time",3
 Australia / Sweden,16,1956,,"Hungary and the Soviet Union were engaged in an armed conflict, resulting in a violent water polo match
-East and West Germany competed in a combined team, this remarkable combination disapeared for the 1968 Olympics"
-Italy,17,1960,,Soviet Union won; US 2nd
+East and West Germany competed in a combined team, this remarkable combination disapeared for the 1968 Olympics",2
+Italy,17,1960,,Soviet Union won; US 2nd,1
 Japan,18,1964,,"Yoshinori Sakai, the runner who lit the Olympic torch, was born in Hiroshima on August 6 1945, 
 the day the atomic bomb was dropped on the city.
 Judo and Volleyball were introduced to the Olympics
-"
+",3
 Mexico,19,1968,,"Mexican student protest repressed by mex. gov.; hundreds of peaceful protesters killed, 1000 arrested- similar to US anti-vietnam and civil rights protests
 Civil rights - two black runners did black power fist during US nat. anthem. Banned from competing, making the US civil rights movement an international issue
 US-Soviet boxing match, George foreman v. Ionas Chepulis. Foreman wins and waves mini US flag to audience
-Africa became promenant in running"
+Africa became promenant in running",8
 West Germany,20,1972,,"The Infamous Munich massacre, where Israli athletes were held hostaged by Palestinian terrorists who,
 invaded the Olympic Village, a botched rescue attempt by Germany resulted in the deaths of all Israli hostages,
 this event helped form Germany's elite-counterterrism unit, GSG 9
 The basketball game between the US and Soviet Union is regarded as the most controversial, 
 because the US appeared to have won 50-49, but the final 3 seconds were played three times until the Soviets
-came out 50-51, the United States refused their silver medals"
-Canada,21,1976,,"China pressure Canada into banning Taiwan, US condemned action
-29 African nations boycott b/c new zealand, who had broken a previous sporting boycott on South Africa, was allowed to compete."
+came out 50-51, the United States refused their silver medals",9
+Canada,21,1976,,"China pressure Canada into banning Taiwan, US, who supported Taiwanese goverment, condemned the action
+29 African nations boycott b/c new zealand, who had broken a previous sporting boycott on South Africa, was allowed to compete.",3
 USSR,22,1980,,"First Olympic games held in a Socalist country
 Because of the outbreak of the Cold War, President Jimmy Carter advocated a boycott of the Olympics,
 due to the Soviet invasion of Afghanistan, where a total of 66 countries boycotted the Moscow Olympics,
 resulting in the lowest participation rate of an Olympics at 80 nations present.
 the United States boycott led the Soviet Union to boycott the 1984 Olympics located in the US
-Elite athletes from the USSR and US wouldn't compete again until the 1988 Olympics"
+Elite athletes from the USSR and US wouldn't compete again until the 1988 Olympics",10
 U.S.A,23,1984,,"As a result from the 1976 Olympic boycott by Jimmy Carter, the USSR and 13 Eastern bloc countries boycotted the 1984 Olympics
 Despite the abscense of certain sports due to the boycott, Olympic attendance was 140, a record at the time.
-The 1984 Olympics are regarded as the most financially successful, serving as a model on how to conduct the Olympic"
+The 1984 Olympics are regarded as the most financially successful, serving as a model on how to conduct the Olympic",9
 South Korea,24,1988,,"Last olympics for USSR and East Germany.
 N. Korea and Cuba boycotted
 Solidified S. Korea's westernization, showcased the Korean economic miricle, and legitamized the government's control
 N. Korea wanted to co-host the olympics, and boycotted when this did not happen
-No continued boycott by Eastern Bloc"
+No continued boycott by Eastern Bloc",7
 Spain,25,1992,,"Unified German team
 Many new countries previously under the USSR formed a unified team (and won); others competed as individuals
-No boycotts whatsoever, marking the end to tensions of the cold war"
+No boycotts whatsoever, marking the end to tensions of the cold war",5
 United States,26,1996,,"The Centennial Olympic Park Bombing, conducted by Eric Rudolph, resulted in 1 death and 111 injuries.
 Rudolph was mad about the government's policy of ""abortion on demand,"" and detonated a pipe bomb in 
 the Olympic square.
 A record breaking 197 teams attended, 24 former soviet countries competed as the Unified Team in 1996
-Russia competed independently for the first time since 1912"
-Australia,27,2000,,Afgahnistan banned from olympics b/c taliban
-Greece,28,2004,,No countries boycotted or banned. US won
+Russia competed independently for the first time since 1912",3
+Australia,27,2000,,Afgahnistan banned from olympics b/c taliban,2
+Greece,28,2004,,No countries boycotted or banned. US won,2
 China,29,2008,,"The first time China had hosted an Olympics
 In preparation for the Olympics, China enforced a clean air policy, making it so drivers could only drive on certain days
 based on their license plate digits. This car limit was expected to take 45% of Bejing's cars off the streets.
-China also built an aditional 7 lines and 80 stations to the existing 4 lines and 64 stations"
+China also built an aditional 7 lines and 80 stations to the existing 4 lines and 64 stations",2
 UK,30,2012,,"Attempts were made to make the events environmentally friendly, and the city tried to use renewable energy to power much of the event, reflecting the environmental concerns that had grown popular.
 Drug testing became wide-spread-half of competitors were tested; A few competitors were accused of doping, foreshadowing the Sochi Olympic doping scandel
-US won the Olympics"
+US won the Olympics",3
 Brazil,31,2016,,"Several Russians banned from competing
 First Olympics in Southern Hemisphere
 Focused on environmental issues
-"
+",5
