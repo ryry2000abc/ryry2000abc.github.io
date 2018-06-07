@@ -3,11 +3,10 @@
 <h1>
 The Olympics: A Historical Timeline
 </h1>
-  
  
 <script src="https://d3js.org/d3.v3.min.js"></script>
 <link rel="stylesheet" href="indexstyle.css">
-<svg id="canvas"  height="600px" width = "600"> </svg>
+<svg id="canvas"  height="600px" width = "1200px"> </svg>
  <text>
    Bottom Text
   </text>
@@ -25,7 +24,7 @@ d3.csv("summeroly.csv", function(data){
               .attr("transform", function(d){
                     var xPosition = d.number * 50;
                     var yPosition = 50;
-                    if (xPosition + 200 > document.documentElement.clientWidth )
+                    if (xPosition + 200 > 1200 )
                     {
                       xPosition = (xPosition + 200) % document.documentElement.clientWidth; 
                       yPosition = 200;
