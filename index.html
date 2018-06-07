@@ -73,7 +73,11 @@ d3.csv("summeroly.csv", function(data){
           )*/
               
   year.append("circle")
-      .attr("r", 10)
+      .attr("r", function(d)
+            {
+             return (d.importance / 10)*10 + 10;
+           
+            })
       .attr("fill", function(d)
             {
                 if (d.year == 1916 || d.year == 1940 || d.year == 1944)  
